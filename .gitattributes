@@ -1,0 +1,2 @@
+# When deployed large files on GitHub, Using Git LFS.
+*.かくちょうし filter=lfs diff=lfs merge=lfs -text

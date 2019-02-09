@@ -1,0 +1,31 @@
+language: node_js
+node_js:
+  - "10"
+
+cache:
+  directories:
+    - "node_modules"
+
+branches:
+  only:
+  - master
+  - develop
+
+# If Don't Auto Deploy on GitHub Pages.
+# Delete 'yarn deploy:github_pages'
+script:
+  - yarn deploy:github_pages
+  - echo "Deploy Done."
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  target-branch: master
+  local-dir: deploy
+  on:
+    branch: develop
+
+git:
+  lfs_skip_smudge: true
