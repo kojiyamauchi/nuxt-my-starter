@@ -37,6 +37,7 @@
     "vue-mixin-decorator": "^1.1.0",
     "vuefire": "^2.0.0-alpha.20",
     "vuex-class": "^0.3.1",
+    "vuex-persistedstate": "^2.5.4",
     "vuex-type-helper": "^1.2.1",
     "vuexfire": "^3.0.0-alpha.14",
     "wait-on": "^3.2.0"
