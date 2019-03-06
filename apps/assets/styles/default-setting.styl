@@ -18,6 +18,7 @@ article,
 aside,
 audio,
 blockquote,
+button,
 body,
 canvas,
 caption,
@@ -51,6 +52,7 @@ p,
 pre,
 ruby,
 section,
+select,
 span,
 summary,
 table,
@@ -76,6 +78,7 @@ video
   -webkit-box-sizing border-box
   -moz-box-sizing border-box
   -ms-box-sizing border-box
+  overflow-wrap break-word
 
 html
   width 100vw
@@ -143,11 +146,15 @@ select,
 button
   border-radius 0
   -webkit-appearance none
+  -moz-appearance none
+  appearance none
 
 textarea
   resize vertical
   border-radius 0
   -webkit-appearance none
+  -moz-appearance none
+  appearance none
 
 ::selection
   background rgba(255, 242, 0, 1)
