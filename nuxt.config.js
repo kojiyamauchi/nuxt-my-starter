@@ -5,7 +5,7 @@ const endPoint = process.env.NODE_ENV === 'GITHUB_PAGES' ? GITHUB_PAGES_ENDPOINT
 
 module.exports = {
   // Setting Mode.
-  mode: 'spa',
+  mode: 'spa', // or 'universal'
   // Setting Dev. See -> https://ja.nuxtjs.org/api/configuration-dev/
   dev: {},
   // Seting Env. See -> https://ja.nuxtjs.org/api/configuration-env/
