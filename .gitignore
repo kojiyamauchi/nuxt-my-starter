@@ -91,6 +91,9 @@ server/cert.pem
 deploy/README.md
 deploy/200.html
 apps/**/README.md
+!apps/pages/README.md
+!apps/components/ViewModels/README.md
+!apps/components/Presentations/README.md
 Template.vue
 TemplateAll.vue
 Template.ts
