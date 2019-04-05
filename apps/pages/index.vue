@@ -1,15 +1,15 @@
 <template lang="pug">
   section.container
-    Heading
+    Headings
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
-import Heading from '@/components/Heading.vue'
+import Headings from '@/components/ViewModels/Headings.vue'
 
 @Component({
   components: {
-    Heading
+    Headings
   }
 })
 export default class extends Vue {
