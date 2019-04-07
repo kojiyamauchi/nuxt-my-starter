@@ -15,7 +15,7 @@ export class CheckScreen extends Vue {
 
   // SP Only.
   checkDirection() {
-    if (navigator.userAgent.match(this.checkMobile)) {
+    if (this.checkMobile.test(navigator.userAgent)) {
       if (this.$store.state.isResize) return this.$store.commit('offResize')
       return screen.width > screen.height
         ? this.$store.commit('onLandscape')
