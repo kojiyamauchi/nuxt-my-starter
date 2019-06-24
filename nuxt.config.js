@@ -35,6 +35,15 @@ module.exports = {
     extend(config, ctx) {
       // Setting Root Path Alias.
       config.resolve.alias['@'] = path.join(__dirname, 'apps/')
+      // ESLint.
+      if (ctx.isDev && ctx.isClient) {
+        config.module.rules.push({
+          enforce: 'pre',
+          test: /\.(js|ts|vue)$/,
+          exclude: /(node_modules)/,
+          loader: 'eslint-loader'
+        })
+      }
     },
     // Customize of Build HTML Minify.
     html: {
@@ -89,7 +98,7 @@ module.exports = {
   // Setting Modules. ( JS & CSS & Any More )
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
-    //'@nuxtjs/pwa', -> TODO.
+    // '@nuxtjs/pwa', -> TODO.
     '@nuxtjs/axios',
     'nuxt-device-detect',
     '../modules/typescript.js',
@@ -98,7 +107,7 @@ module.exports = {
   ],
 
   // Plugins to load before mounting the App
-  plugins: ['@/plugins/Mixins'],
+  plugins: ['@/plugins/Mixins', '@/plugins/CheckScreen'],
 
   // Axios module configuration
   axios: {
