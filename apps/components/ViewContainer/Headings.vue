@@ -14,10 +14,6 @@ import Heading from '@/components/Presentations/Heading.vue'
 })
 export default class Headings extends Vue {
   // Types.
-
-  constructor() {
-    super()
-  }
 }
 </script>
 

@@ -4,20 +4,18 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'nuxt-property-decorator'
+import { Component } from 'nuxt-property-decorator'
 import Headings from '@/components/ViewModels/Headings.vue'
+import { Mixins } from 'vue-mixin-decorator'
+import { CheckScreen } from '@/plugins/CheckScreen'
 
 @Component({
   components: {
     Headings
   }
 })
-export default class extends Vue {
+export default class extends Mixins<CheckScreen>(CheckScreen) {
   // Types.
-
-  constructor() {
-    super()
-  }
 }
 </script>
 

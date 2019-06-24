@@ -9,10 +9,6 @@ import { Component, Vue } from 'nuxt-property-decorator'
 @Component({})
 export default class Heading extends Vue {
   // Types.
-
-  constructor() {
-    super()
-  }
 }
 </script>
 
