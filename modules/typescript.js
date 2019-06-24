@@ -24,7 +24,7 @@ module.exports = function() {
       )
     )
     // Add TypeScript loader for vue files
-    for (let rule of config.module.rules) {
+    for (const rule of config.module.rules) {
       if (rule.loader === 'vue-loader') {
         rule.options.loaders = rule.options.loaders || {}
         rule.options.loaders.ts = tsLoader
@@ -39,7 +39,6 @@ module.exports = function() {
       config.plugins.push(
         new ForkTsCheckerWebpackPlugin({
           workers: ForkTsCheckerWebpackPlugin.ONE_CPU,
-          tslint: true, // TS-Lint on Webpack Plugins.
           vue: true
         })
       )

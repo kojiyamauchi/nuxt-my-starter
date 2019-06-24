@@ -14,4 +14,6 @@
 ℹ️ Sometime Checks `Create Nuxt App`, Anytime Update.  
 <https://github.com/nuxt/create-nuxt-app>
 
-🛹 🏄 🚶‍
+🛹 🏄 🚶‍  
+  
+I'll Reviewed TypeScript Settings After Nuxt.js has been Updated to Version 3. 📝
