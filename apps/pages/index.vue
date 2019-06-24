@@ -5,7 +5,7 @@
 
 <script lang="ts">
 import { Component } from 'nuxt-property-decorator'
-import Headings from '@/components/ViewModels/Headings.vue'
+import Headings from '@/components/ViewContainer/Headings.vue'
 import { Mixins } from 'vue-mixin-decorator'
 import { CheckScreen } from '@/plugins/CheckScreen'
 
