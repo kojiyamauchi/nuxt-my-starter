@@ -14,16 +14,16 @@ export const state = (): State => ({
 
 export const mutations: MutationTree<State> = {
   // Add Mutations.
-  onLandscape(stateArg: State) {
+  onLandscape(stateArg: State): void {
     stateArg.isLandscape = true
   },
-  offLandscape(stateArg: State) {
+  offLandscape(stateArg: State): void {
     stateArg.isLandscape = false
   },
-  onResize(stateArg: State) {
+  onResize(stateArg: State): void {
     stateArg.isResize = true
   },
-  offResize(stateArg: State) {
+  offResize(stateArg: State): void {
     stateArg.isResize = false
   }
 }
@@ -35,4 +35,3 @@ export const getters: GetterTree<State, State> = {
 export const actions: ActionTree<State, State> = {
   // Add Actions.
 }
-
