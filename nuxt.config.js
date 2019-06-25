@@ -103,7 +103,7 @@ module.exports = {
     'nuxt-device-detect',
     '../modules/typescript.js',
     // Using Mixins Styles with Each Component.
-    ['nuxt-stylus-resources-loader', [__dirname + '/apps/assets/styles/mixins.styl']]
+    ['nuxt-stylus-resources-loader', [`${__dirname}/apps/assets/styles/mixins.styl`]]
   ],
 
   // Plugins to load before mounting the App
