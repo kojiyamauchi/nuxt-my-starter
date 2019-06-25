@@ -6,7 +6,7 @@ export class Mixins extends Vue {
   // Types.
 
   public sleep(ms: number): Promise<number> {
-    return new Promise<number>((resolve: (value?: number) => void): number => {
+    return new Promise((resolve): number => {
       return setTimeout(resolve, ms)
     })
   }
@@ -20,8 +20,8 @@ export class Mixins extends Vue {
     }
   }
 
-  public resolvedPromise<T>(arg: T | undefined): Promise<T> {
-    return new Promise<T>((resolve: (value?: T) => void): void => resolve(arg))
+  public resolvedPromise<T>(arg: T): Promise<T> {
+    return new Promise((resolve): void => resolve(arg))
   }
 }
 
