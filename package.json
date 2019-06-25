@@ -33,8 +33,6 @@
     "stylus-loader": "^3.0.2",
     "ts-loader": "^6.0.4",
     "ts-node": "^8.3.0",
-    "tslint": "^5.18.0",
-    "tslint-loader": "^3.5.4",
     "typescript": "^3.5.2",
     "vue-mixin-decorator": "^1.1.1",
     "vuefire": "^2.0.0",
