@@ -92,7 +92,7 @@ deploy/README.md
 deploy/200.html
 apps/**/README.md
 !apps/pages/README.md
-!apps/components/ViewContainer/README.md
+!apps/components/Managements/README.md
 !apps/components/Presentations/README.md
 Template.vue
 TemplateAll.vue
