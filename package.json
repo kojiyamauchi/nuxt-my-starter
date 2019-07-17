@@ -75,7 +75,7 @@
   },
   "scripts": {
     "server": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
-    "browser": "wait-on tcp:3000 && opener -a 'Google Chrome' https://localhost:3000",
+    "browser": "wait-on tcp:3000 && opener -a 'Google Chrome Canary' https://localhost:3000",
     "dev": "npm-run-all -p server browser",
     "build": "nuxt build",
     "start": "cross-env NODE_ENV=production node server/index.js",
