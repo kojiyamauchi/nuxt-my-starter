@@ -1,4 +1,4 @@
-# Nuxt.js My Starter Kit. 🛹
+# Nuxt.js My Starter.
 
 ## Usage.
 
@@ -9,11 +9,10 @@
 - `yarn install` / Install All npm Packages.
 - Need Generate `server/cert.pem` ( SSL / https )
 - If Use `GitHub Pages`, Auto Deployed on Master Branch, Using `Travis CI`.
-- `Jest` is Later. ☕️
+- `Jest` is Later.
 
 ℹ️ Sometime Checks `Create Nuxt App`, Anytime Update.  
 <https://github.com/nuxt/create-nuxt-app>
 
-🛹 🏄 🚶‍  
-  
-I'll Reviewed TypeScript Settings After Nuxt.js has been Updated to Version 3. 📝
+I'll Reviewed TypeScript Settings After Nuxt.js has been Updated to Version 3.  
+🛹 ‍  

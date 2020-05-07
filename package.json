@@ -1,9 +1,8 @@
 {
-  "name": "Nuxt-My-Starter-Kit",
+  "name": "Nuxt-My-Starter",
   "version": "1.0.0",
-  "description": "Let's Begin Now!",
-  "author": "kojiyamauchi",
-  "private": true,
+  "description": "",
+  "author": "",
   "dependencies": {
     "@nuxt/typescript": "^2.8.1",
     "@nuxtjs/auth": "^4.8.0",
